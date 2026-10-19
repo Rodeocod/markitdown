@@ -7,6 +7,7 @@ from ._html_converter import HtmlConverter
 from ._rss_converter import RssConverter
 from ._wikipedia_converter import WikipediaConverter
 from ._youtube_converter import YouTubeConverter
+from ._instagram_converter import InstagramConverter
 from ._ipynb_converter import IpynbConverter
 from ._bing_serp_converter import BingSerpConverter
 from ._pdf_converter import PdfConverter
@@ -34,6 +35,7 @@ __all__ = [
     "RssConverter",
     "WikipediaConverter",
     "YouTubeConverter",
+    "InstagramConverter",
     "IpynbConverter",
     "BingSerpConverter",
     "PdfConverter",

@@ -27,6 +27,7 @@ from .converters import (
     RssConverter,
     WikipediaConverter,
     YouTubeConverter,
+    InstagramConverter,
     IpynbConverter,
     BingSerpConverter,
     PdfConverter,
@@ -210,6 +211,7 @@ class MarkItDown:
             self.register_converter(RssConverter())
             self.register_converter(WikipediaConverter())
             self.register_converter(YouTubeConverter())
+            self.register_converter(InstagramConverter())
             self.register_converter(BingSerpConverter())
             self.register_converter(DocxConverter())
             self.register_converter(XlsxConverter())
